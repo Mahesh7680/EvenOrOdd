@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
