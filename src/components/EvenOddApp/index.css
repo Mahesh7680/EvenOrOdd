@@ -7,8 +7,18 @@
   justify-content: center;
 }
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: linear-gradient(#ff6e7f, #bfe9ff);
   height: 300px;
   width: 300px;
   border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  font-size: 10px;
 }
